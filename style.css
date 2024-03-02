@@ -187,6 +187,7 @@ body{
     bottom: 0; left: 0; right: 0;
     z-index: 1000;
     display: none;
+    overflow: hidden;
 }
 
 .bottom-navbar a{
@@ -644,8 +645,16 @@ body{
 @media (max-width:450px){
     html{
         font-size: 50%;
-        overflow-x: hidden;
+        overflow: hidden;
     }
+    .bottom-navbar{
+    text-align: center;
+    background: var(--green);
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    z-index: 1000;
+    overflow: hidden;
+}
     .text-blk.heading {
         font-size: 25px;
         line-height: 45px;
