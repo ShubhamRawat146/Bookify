@@ -646,14 +646,19 @@ body{
     html{
         font-size: 50%;
         scroll-padding-top: 0;
-        overflow-x: hidden;
+        
         
     }
-    .breadcrum{
-        display: block;
+    #about-us{
+        overflow-x: hidden;
     }
+    #featured{
+        overflow-x: hidden;
+    }
+    
+
         .bottom-navbar{
-        display: none;
+        display: block;
     }
 
     .text-blk.heading {
