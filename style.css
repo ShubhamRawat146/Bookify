@@ -645,7 +645,11 @@ body{
 @media (max-width:450px){
     html{
         font-size: 50%;
-
+        scroll-padding-top: 0;
+        
+    }
+        .bottom-navbar{
+        display: block;
     }
 
     .text-blk.heading {
