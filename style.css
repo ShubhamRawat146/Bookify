@@ -649,8 +649,11 @@ body{
         overflow-x: hidden;
         
     }
-        .bottom-navbar{
+    .breadcrum{
         display: block;
+    }
+        .bottom-navbar{
+        display: none;
     }
 
     .text-blk.heading {
